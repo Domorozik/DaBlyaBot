@@ -20,18 +20,22 @@ ts = initial_poll['response']['ts']
 
 url = f"{server}?act=a_check&key={key}&ts={ts}&wait=25"
 
-while True:
+# while True:
 
-    response = requests.post(url).json()
+response = requests.post(url).json()
 
-    with open("Latest_response", "w", encoding='utf-8') as f:
-        json.dump(response, f, indent=4, ensure_ascii=False)
+with open("Latest_response", "w", encoding='utf-8') as f:
+    json.dump(response, f, indent=4, ensure_ascii=False)
 
-    ts = response['ts']
-    url = f"{server}?act=a_check&key={key}&ts={ts}&wait=25"
+ts = response['ts']
+url = f"{server}?act=a_check&key={key}&ts={ts}&wait=25"
 
-    message_info = response['updates']['message']
+if response['updates'][0]["type"] = "message_new":
+    message_info = response['updates'][0]['object']['message']
     with open("Latest_message", "w", encoding='utf-8') as f:
         json.dump(message_info, f, indent=4, ensure_ascii=False)
 
-# def work_with_message():
+def process_message(message:dict):
+    user_id = message['from_id']
+
+    
