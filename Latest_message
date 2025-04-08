@@ -1,15 +1,15 @@
 {
-    "date": 1743866661,
+    "date": 1743873114,
     "from_id": 169563515,
-    "id": 11,
-    "version": 10000020,
+    "id": 39,
+    "version": 10000084,
     "out": 0,
     "fwd_messages": [],
     "important": false,
     "is_hidden": false,
     "attachments": [],
-    "conversation_message_id": 11,
-    "text": "Да бля",
+    "conversation_message_id": 39,
+    "text": "да бля",
     "peer_id": 169563515,
     "random_id": 0
 }

@@ -1,45 +1,4 @@
 {
-    "ts": "5",
-    "updates": [
-        {
-            "group_id": 229129792,
-            "type": "message_new",
-            "event_id": "eca5aa670a479d54452a7153b9bc787ba54d5b49",
-            "v": "5.199",
-            "object": {
-                "client_info": {
-                    "button_actions": [
-                        "text",
-                        "vkpay",
-                        "open_app",
-                        "location",
-                        "open_link",
-                        "open_photo",
-                        "callback",
-                        "intent_subscribe",
-                        "intent_unsubscribe"
-                    ],
-                    "keyboard": true,
-                    "inline_keyboard": true,
-                    "carousel": true,
-                    "lang_id": 0
-                },
-                "message": {
-                    "date": 1743866661,
-                    "from_id": 169563515,
-                    "id": 11,
-                    "version": 10000020,
-                    "out": 0,
-                    "fwd_messages": [],
-                    "important": false,
-                    "is_hidden": false,
-                    "attachments": [],
-                    "conversation_message_id": 11,
-                    "text": "Да бля",
-                    "peer_id": 169563515,
-                    "random_id": 0
-                }
-            }
-        }
-    ]
+    "ts": "24",
+    "updates": []
 }
